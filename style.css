@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header a{
+    margin: 2rem;
+}
+.video-player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.btns{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+ button{
+    padding: 8px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    flex-shrink: 2;
+}
+
+
+.video-container{
+   width: 60%;
+}
+.video{
+    width: 100%;
+}
+@media only screen and (max-width: 770px) {
+    .video-container{
+        width: 80%;
+     }
+  }
